@@ -712,10 +712,13 @@ FEATURED COLLECTION
 .book-item{
     background:#fff;
     border-radius:22px;
-    padding:28px;
+    padding:24px;
     text-align:center;
     transition:.35s;
     box-shadow:0 12px 40px rgba(0,0,0,.08);
+
+    max-width:300px;
+    margin:auto;
 }
 
 .book-item:hover{
