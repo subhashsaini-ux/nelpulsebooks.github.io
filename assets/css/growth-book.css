@@ -1,1 +1,186 @@
+/* ==========================================
+   THE GROWTH ARCHITECT
+   Book Page Styles
+========================================== */
 
+body{
+    background:#FAFAFA;
+}
+
+/* =========================
+HEADER
+========================= */
+
+.book-header{
+
+    background:#ffffff;
+
+    border-bottom:1px solid #ececec;
+
+    padding:20px 0;
+
+}
+
+.back-home{
+
+    color:#111111;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.back-home:hover{
+
+    color:#D4AF37;
+
+}
+
+/* =========================
+BOOK HERO
+========================= */
+
+.book-hero{
+
+    padding:80px 0;
+
+}
+
+.book-layout{
+
+    display:grid;
+
+    grid-template-columns:420px 1fr;
+
+    gap:80px;
+
+    align-items:center;
+
+}
+
+.book-cover-side{
+
+    display:flex;
+
+    justify-content:center;
+
+}
+
+.book-page-cover{
+
+    width:320px;
+
+    border-radius:18px;
+
+    box-shadow:0 30px 70px rgba(0,0,0,.18);
+
+    transition:.4s;
+
+}
+
+.book-page-cover:hover{
+
+    transform:rotate(-2deg) translateY(-8px);
+
+}
+
+.book-info-side h1{
+
+    font-size:52px;
+
+    margin:18px 0 10px;
+
+    line-height:1.1;
+
+}
+
+.book-info-side h2{
+
+    font-size:22px;
+
+    font-weight:500;
+
+    color:#666;
+
+    margin-bottom:25px;
+
+}
+
+.rating{
+
+    font-size:22px;
+
+    margin-bottom:25px;
+
+}
+
+.rating span{
+
+    font-size:16px;
+
+    color:#777;
+
+    margin-left:10px;
+
+}
+
+.book-description{
+
+    font-size:18px;
+
+    line-height:1.9;
+
+    color:#555;
+
+    max-width:650px;
+
+    margin-bottom:35px;
+
+}
+
+.price-box{
+
+    margin-bottom:35px;
+
+}
+
+.price-box h3{
+
+    font-size:42px;
+
+    margin-bottom:8px;
+
+}
+
+.price-box p{
+
+    color:#777;
+
+}
+
+.buy-button{
+
+    display:inline-block;
+
+    background:#111;
+
+    color:#fff;
+
+    padding:18px 42px;
+
+    border-radius:999px;
+
+    font-weight:700;
+
+    transition:.3s;
+
+}
+
+.buy-button:hover{
+
+    background:#D4AF37;
+
+    color:#111;
+
+}
