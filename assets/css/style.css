@@ -677,3 +677,79 @@ justify-content:center;
 .featured-book:hover{
     transform:translateY(-8px) rotate(-2deg);
 }
+
+/* =========================
+FEATURED COLLECTION
+========================= */
+
+.featured-books{
+    padding:100px 0;
+    background:#fafafa;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.section-title h2{
+    font-size:42px;
+    margin-bottom:15px;
+    font-family:Georgia,serif;
+}
+
+.section-title p{
+    color:#666;
+    font-size:18px;
+}
+
+.books-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:40px;
+}
+
+.book-item{
+    background:#fff;
+    border-radius:22px;
+    padding:28px;
+    text-align:center;
+    transition:.35s;
+    box-shadow:0 12px 40px rgba(0,0,0,.08);
+}
+
+.book-item:hover{
+    transform:translateY(-10px);
+    box-shadow:0 30px 60px rgba(0,0,0,.12);
+}
+
+.book-item img{
+    width:100%;
+    border-radius:16px;
+    margin-bottom:22px;
+}
+
+.book-item h3{
+    font-size:26px;
+    margin-bottom:12px;
+}
+
+.book-item p{
+    color:#666;
+    line-height:1.7;
+    margin-bottom:25px;
+}
+
+.book-btn{
+    display:inline-block;
+    padding:14px 34px;
+    background:#111;
+    color:#fff;
+    border-radius:999px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.book-btn:hover{
+    background:#333;
+}
