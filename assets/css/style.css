@@ -665,3 +665,15 @@ justify-content:center;
 }
 
 }
+
+.featured-book{
+    width:100%;
+    border-radius:18px;
+    display:block;
+    box-shadow:0 25px 60px rgba(0,0,0,.18);
+    transition:.4s;
+}
+
+.featured-book:hover{
+    transform:translateY(-8px) rotate(-2deg);
+}
